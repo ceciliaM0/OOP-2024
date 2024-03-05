@@ -1,32 +1,3 @@
-// Design a C++ class named Movie that reflects the properties of a movie. The class should include the following:
-// - methods to set and get the name of the movie(max 256 characters);
-// - methods to set and get the release year;
-// - methods to set and get the IMDB score(a double with values between 1 and 10);
-// - methods to set and get the length of a movie, in minutes;
-// - a method to get the number of passed years since the release(calculated at every call);
-// - 5 global functions that compare two movies in terms of name, released year, IMDB score, length, and passed years.
-// 
-// The last functions will return an int with the values :
-// -1 if first < second;
-// 0 if first == second;
-// 1 if first > second;
-//
-// Design a second class named MovieSeries that is able to hold at most 16 movies as pointers. The class will have
-// methods for:
-// - initialization (setting the count to 0);
-// - adding a Movie as a pointer;
-// - printing the information about the movies, each on a line;
-// - sorting the movies descending after the number of passed years since the release;
-//
-// Make sure that you have the following for each class:
-// - header (.h) file for the class declaration;
-// - source (.cpp) file for the methods specific to the class;
-// - the variables should be private and the functions public;
-// 
-// Also:
-// - a header file for the global functions declaration;
-// - a cpp file for the global functions implementation;
-// - a main file called main.cpp that contains the main function with the code from below;
 #include<iostream>
 #include"Movieh.h"
 #include"MovieSeriesH.h"
